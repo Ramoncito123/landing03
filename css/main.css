@@ -1,4 +1,7 @@
-
+        
+         .body {
+            background-image: url(../img/img2/mailchimp-YTZOyio3Udk-unsplash.jpg);
+         }
         .carrossel{
             width: 100%;
             height: 71vh;
@@ -11,7 +14,7 @@
             transform: translate(-50%,-50%);
             z-index:2;
             width: 100%;
-            text-align: center;
+            text-align: justify;
             font-size: 3.2rem;
             color: #fff;
             background-color: rgba(0, 0, 0, 0.63);
@@ -41,31 +44,53 @@
             transform: translate(-50%,-50%);
             z-index:3;
         }
-        .kit{
-            width: 100%;
-            margin-top: 10px;
-            display: grid;
-            grid-template-columns: repeat(4,1fr);
-            grid-template-rows: auto;
-            gap: 2px;
-            align-items:center;
-            justify-content:center;
-        }
-        .div-kit{
-            background-color: rgb(29, 28, 28);
-            width: 100%;
-            height: 100%;
-            padding: 10px;
+
+        #Key-benefits h2 {
+            background-color: rgb(173, 100, 142);
             text-align: center;
-            border-radius: 15px;
+            padding: 2em;
+            font-weight: 500;
         }
-        .img-kit{
-            width: 220px;
-            height: 110px;
+        .benefits {
+            display: flex;
+            justify-content: space-around;
+            padding: 4em;
+            width: 80%;
+            margin: 0 auto;
+            background-image: -moz-linear-gradient(-moz-linear-gradient);
         }
-        .titulo-kit{
-            color: rgb(250, 219, 241);
+        .benefit {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 20%;
+            color: rgb(3, 1, 12);
         }
+        .benefit .benefit-img {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            background-size: cover;
+            background-position: center;
+            margin-bottom: 1em;
+        }
+        #benefit-1 {
+            background-image: url(../img/img2/samsung-memory-AgWSwemQroU-unsplash.jpg);
+        }
+        #benefit-2 {
+            background-image: url(../img/img2/dmitry-ganin-5h1nngKemIs-unsplash.jpg);
+        }
+        #benefit-3 {
+            background-image: url(../img/img2/dmitry-ganin-cSW_Rxb6s70-unsplash.jpg);
+        }
+        
+
+
+
+
+
+
         .bolos{
             width: 100%;
             display: grid;
@@ -91,4 +116,16 @@
             object-fit:fill;
             border-radius: 15px;
             box-shadow: 10px 10px 20px black;
+        }
+
+        .cel,.tab,.com{
+            margin: auto;
+            margin-top: 10vh;
+            margin-bottom: 20vh;
+            width: 90%;
+            height: 45vh;
+        }
+        .cel-txt{
+            font-size: 1.5rem;
+            margin-bottom: 4vh;
         }
